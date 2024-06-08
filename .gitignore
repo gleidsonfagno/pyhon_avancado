@@ -1,0 +1,26 @@
+# .gitignore
+env/
+__pycache__/
+*.py[cod]
+*.pyd
+*.pyo
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+*.spec
+
+# If you are using Jupyter notebooks
+.ipynb_checkpoints/
+
+# If you are using Django
+*.log
+*.pot
+*.pyc
+db.sqlite3
+media
+
+# If you are using virtualenv
+.env/
+
